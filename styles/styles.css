@@ -387,3 +387,113 @@ body {
   border: none;
   margin: 14px 0px;
 }
+
+/* Task 4: Donate Section */
+.donate {
+  position: static;
+  width: 1280px;
+  height: 464px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32;
+  margin: 80px 0px;
+}
+.donate-heading {
+  position: static;
+  width: 1280px;
+  height: 48px;
+  margin: 24px 0px;
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.donate-info {
+  position: static;
+  width: 1104px;
+  height: 48px;
+  margin: 0px 24px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#donate-box {
+  width: 1032px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 40px 20px 40px;
+  margin: 20px 0px;
+  /* border-bottom: 1px solid rgba(14, 14, 14, 0.15); */
+  border: none;
+  background: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 20px;
+}
+
+.donate-card-contianer {
+  width: 1071px;
+  height: 128px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24;
+  padding: 0px;
+  margin: 32px 0px;
+}
+.dontae-cards {
+  width: 240px;
+  height: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24;
+  padding: 40px;
+  margin: 0px 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+.card-special {
+  background: rgb(198, 228, 214);
+}
+
+.donate-button {
+  position: static;
+  width: 151px;
+  height: 56px;
+  padding: 17px 34px 17px 34px;
+  margin: 32px 0px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+}
+.donate-button p {
+  position: static;
+  width: 83px;
+  height: 22px;
+  /* margin: 0px 48px; */
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
