@@ -250,3 +250,140 @@ body {
   border-radius: 8px;
   background: rgb(255, 194, 57);
 }
+
+/* Task 3: Recent News */
+
+.news {
+  width: 1280px;
+  height: 1406px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32;
+  padding: 0px;
+  margin: 80px 0px;
+}
+.news-heading {
+  margin: 24px 0px;
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.news-info {
+  margin: 12px 0px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.news-card-container {
+  width: 1280px;
+  height: 1254px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24;
+  padding: 0px;
+  margin: 32px 0px;
+}
+.news-card-1 {
+  width: 1280px;
+  height: 402px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 64;
+  padding: 48px;
+  margin: 24px 0px;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+}
+
+.news-card-2 {
+  width: 1280px;
+  height: 402px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 64;
+  padding: 48px;
+  margin: 24px 0px;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+}
+
+.satelite-image {
+  width: 408px;
+  height: 306px;
+  margin: 0px 32px;
+  border-radius: 24px;
+}
+
+.flex-div {
+  width: 744px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32;
+  padding: 0px;
+  margin: 0px 32px;
+}
+
+.flex-heading {
+  margin: 12px 0px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.news-image {
+  width: 134px;
+  height: 40px;
+  /* margin: 12px 0px; */
+}
+
+.date-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12;
+  padding: 0px;
+  margin: 12px 0px;
+}
+
+.flex-info {
+  /* margin: 12px 0px; */
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.news-button {
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  padding: 13px 26px 13px 26px;
+  color: rgb(255, 255, 255);
+  border: none;
+  margin: 14px 0px;
+}
